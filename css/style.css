@@ -11,9 +11,7 @@
 #main-navbar {
   width: 100%;
   position: relative;
-  background-color: #000; 
-  /* override the previous color */
-  background-color: blue; 
+  background-color: blue;
   overflow: hidden;
 }
 
@@ -42,14 +40,19 @@
 #navbar-container a {
   color: #fff;
   text-decoration: none;
-  /* override he previous decoration */
-  text-decoration: underline overline; 
+}
+
+#navbar-container a:active {
+  background-color: #000;
+}
+
+#onpage a {
+  text-decoration: underline overline;
 }
 
 #sidebar {
   position: fixed;
   right: 0%;
-  background-color: #000;
   background-color: red;
   height: 100%;
   width: 20%;
@@ -69,5 +72,8 @@
 #sidebar a {
   color: #fff;
   text-decoration: none;
-  
+}
+
+#sidebar a:active {
+  background-color: #000;
 }
