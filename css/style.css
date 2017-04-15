@@ -1,10 +1,19 @@
+/* John Chiodo                  */
+/* ITMD361-Production-Problem-6 */
+/* 04/19/2017                   */
+/*
+/*  Objective:                                        */
+/*  Create a CSS file to turn the provided HTML files */
+/*  into separate top and side navigation bars.       */
+
 /*start your css here*/
 
 #main-navbar {
   width: 100%;
   position: relative;
-  background-color: #000;
-  background-color: blue;
+  background-color: #000; 
+  /* override the previous color */
+  background-color: blue; 
   overflow: hidden;
 }
 
@@ -33,25 +42,9 @@
 #navbar-container a {
   color: #fff;
   text-decoration: none;
-  text-decoration: underline overline;
+  /* override he previous decoration */
+  text-decoration: underline overline; 
 }
-
-
-/*  
-
-    
-  
-
-  
- 
- 
-  
-
-
-  
-
-
-  */
 
 #sidebar {
   position: fixed;
@@ -74,6 +67,7 @@
 }
 
 #sidebar a {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
+  
 }
