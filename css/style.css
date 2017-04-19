@@ -1,6 +1,7 @@
 /* John Chiodo                  */
 /* ITMD361-Production-Problem-6 */
 /* 04/19/2017                   */
+
 /*
 /*  Objective:                                        */
 /*  Create a CSS file to turn the provided HTML files */
@@ -42,7 +43,7 @@
   text-decoration: none;
 }
 
-#navbar-container a:active {
+#navbar-container a:hover {
   background-color: #000;
 }
 
@@ -65,8 +66,8 @@
 }
 
 #sidebar ul li {
-  display: block;
   padding: 15px 0;
+  display: block;
 }
 
 #sidebar a {
@@ -74,6 +75,6 @@
   text-decoration: none;
 }
 
-#sidebar a:active {
+#sidebar a:hover {
   background-color: #000;
 }
